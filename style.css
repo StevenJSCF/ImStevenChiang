@@ -166,15 +166,6 @@ img.profile-pic {
   padding: 5px;
 }
 
-/* width: 200px;
-height: 200px;
-border-radius: 50%;
-border: 5px solid rgb(55, 208, 175) ;
-margin-right: 10px;
-margin-left: 200px;
-margin-top: 80px;
-padding: 10px; */
-
 img.profile-pic-2 {
   height: 400px;
   width: 400px;
@@ -366,7 +357,7 @@ img.profile-pic-2 {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
