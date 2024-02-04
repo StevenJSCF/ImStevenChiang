@@ -45,16 +45,6 @@
   .about-containers {
     margin-top: 0;
   }
-
-  img.profile-pic {
-    height: 150px;
-    width: 150px;
-  }
-
-  img.profile-pic-2 {
-    height: 150px;
-    width: 150px;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -111,5 +101,13 @@
     text-align: justify;
   }
 
+  img.profile-pic {
+    height: 150px;
+    width: 150px;
+  }
 
+  img.profile-pic-2 {
+    height: 150px;
+    width: 150px;
+  }
 }
