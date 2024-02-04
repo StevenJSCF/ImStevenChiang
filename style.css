@@ -162,6 +162,25 @@ img.profile-pic {
   height: 500;
   width: 500px;
   border-radius: 50%;
+  border:5px solid black;
+  padding: 5px;
+}
+
+/* width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 5px solid rgb(55, 208, 175) ;
+margin-right: 10px;
+margin-left: 200px;
+margin-top: 80px;
+padding: 10px; */
+
+img.profile-pic-2 {
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+  border:5px solid black;
+  padding: 5px;
 }
 
 #profile {
@@ -432,12 +451,11 @@ article .icon {
 
 /* FOOTER */
 
-footer{
+footer {
   height: 26vh;
   margin: 0 1rem;
-
 }
 
 footer p {
-  text-align: center; 
+  text-align: center;
 }
