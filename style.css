@@ -162,7 +162,7 @@ img.profile-pic {
   height: 500;
   width: 500px;
   border-radius: 50%;
-  border:5px solid black;
+  border: 5px solid black;
   padding: 5px;
 }
 
@@ -170,7 +170,7 @@ img.profile-pic-2 {
   height: 400px;
   width: 400px;
   border-radius: 5%;
-  border:5px solid black;
+  border: 5px solid black;
   padding: 5px;
 }
 
@@ -386,8 +386,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 350px;
+  height: 450px;
 }
 
 .project-title {
@@ -449,4 +449,37 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* POTENTIAL FLIP PROJECTS */
+.flip-container {
+  perspective: 1000px;
+  padding-bottom: 40px; /* Adjust this value as needed */
+  position: relative; /* Add this to position the button relative to this container */
+}
+
+.flip-btn {
+  position: absolute; /* Position the button absolutely */
+  bottom: 0; /* Align it to the bottom of the flip-container */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%); /* This is to perfectly center the button */
+}
+.flipper {
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.flipped .flipper {
+  transform: rotateY(180deg);
 }
