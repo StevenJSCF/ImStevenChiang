@@ -6,6 +6,21 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
-document.querySelector('.flip-btn').addEventListener('click', function() {
-    document.querySelector('.flip-container').classList.toggle('flipped');
+
+
+  // Select all flip buttons
+const flipButtons = document.querySelectorAll('.flip-btn');
+
+// Add a click event listener to each flip button
+flipButtons.forEach(button => {
+  button.addEventListener('click', (event) => {
+    // Prevent the default action of the button
+    event.preventDefault();
+
+    // Select the closest flip container
+    const flipContainer = button.closest('.flip-container');
+
+    // Toggle the 'flipped' class
+    flipContainer.classList.toggle('flipped');
   });
+});

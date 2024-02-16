@@ -356,7 +356,9 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
+          <div class="details-container color-container flip-container">
+            <div class="flipper">
+              <div class="front">
             <div class="article-container">
               <img
                 src="assets/discord-ai-agent.png"
@@ -372,88 +374,119 @@
               >
                 Github
               </button>
+              <button
+              class="btn btn-color-2 project-btn flip-btn"
+            >
+              Description
+            </button>
             </div>
           </div>
 
-          <!-- <div class="details-container color-container flip-container">
-            <div class="flipper">
-              <div class="front">
-                <div class="article-container">
-                  <img
-                    src="assets/project-1.png"
-                    alt="project 1"
-                    class="project-img"
-                  />
-                </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <div class="btn-container">
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/StevenJSCF'"
-                  >
-                    Github
-                  </button>
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/StevenJSCF'"
-                  >
-                    Live Demo
-                  </button>
-                </div>
-              </div>
-              <div class="back">
-                <p>
-                  This is a project that I worked on during my junior year at
-                  Iowa State University. It is a web application that allows
-                  users to create and manage their own personal blogs. The
-                  application is built using the MERN stack and is hosted on
-                  Heroku. The application is designed to be user-friendly and
-                  responsive, and it is built with a focus on security and
-                  performance.
-                </p>
-              </div>
-            </div>
-            <button class="flip-btn">Flip</button>
-          </div> -->
+          <div class="back">
+            <p>
+              Modified discord bot from mishalhossin. I turned it into an agent with long term moemory.
+              So that it can remember the persona that interacted with it
+              I also set up a deep knowledge retrival tools so that it can get deeper information 
+              from the web (Google, Wikipedia, etc) and answer the user questions.
+              Discord Ai Agent is a discord bot that has a open AI api key which 
+              makes the bot able to chat with the users in the server. You can change 
+              teh personality of the bot by adapting it to the agent that you want. For example 
+              Idecided to make this discord ai agent a 25 year old male that its my TA(Teaching Assistant)
+              That way if I have some questions I can ask the bot and it will answer me as if it was my TA.
+              The difference between this bot and ChatGPt is that because of the personality that I gave to 
+              the bot will be more specific stick to that role. 
+            </p>
+            <button class="btn btn-color-2 project-btn flip-btn">Back</button>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/maze-ball.png"
-                alt="project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Maze Ball mobile game</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/StevenJSCF/MazeBall-MobileApp-Game', '_blank')"
-              >
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/pokemon-game.png"
-                alt="project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">ASCII Pokemon Game</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/StevenJSCF/Pokemon-game', '_blank')"
-              >
-                Github
-              </button>
-            </div>
           </div>
         </div>
       </div>
+
+      
+
+
+      <div class="details-container color-container flip-container">
+        <div class="flipper">
+          <div class="front">
+        <div class="article-container">
+          <img
+            src="assets/maze-ball.png"
+            alt="project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Maze Ball Game </h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://github.com/StevenJSCF/MazeBall-MobileApp-Game', '_blank')"
+            >
+            Github
+          </button>
+          <button
+          class="btn btn-color-2 project-btn flip-btn"
+        >
+          Description
+        </button>
+        </div>
+      </div>
+
+      <div class="back">
+        <p>
+          Team project mobile app game using android studios and springboot. For the database we used MySQL.
+          The game is a maze ball game where the user has to move the ball to the end of the maze by scapping a 
+          path to the goal. The maps will have certain obstacles that the user will have to avoid. The game can be 
+          played with friends and the user can create their own maps with the frieds as well like a collaborative editing
+          in real time. The game also includes a store wehre you can buy usable objects for the map. The game also 
+          includes a ranking system where the user can see the top 10 players in the world and chat with their friends.
+        </p>
+        <button class="btn btn-color-2 project-btn flip-btn">Back</button>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="details-container color-container flip-container">
+
+        <div class="article-container">
+          <img
+            src="assets/pokemon-game.png"
+            alt="project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">ASCII Pokemon Game</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://github.com/StevenJSCF/Pokemon-game', '_blank')"
+          >
+            Github
+          </button>
+          <button
+          class="btn btn-color-2 project-btn flip-btn"
+        >
+          Description
+        </button>
+        </div>
+      </div>
+  
+      <div class="back">
+        <p>
+          This is a project that I worked on during my junior year at
+          Iowa State University. It is a web application that allows
+          users to create and manage their own personal blogs. The
+          application is built using the MERN stack and is hosted on
+          Heroku. The application is designed to be user-friendly and
+          responsive, and it is built with a focus on security and
+          performance.
+        </p>
+        <button class="btn btn-color-2 project-btn flip-btn">Back</button>
+      </div>
+    </div>
+  </div>
+
+      
 
       <div class="btn-container">
         <button
